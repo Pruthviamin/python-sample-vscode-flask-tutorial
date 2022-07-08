@@ -28,5 +28,5 @@ def get_data():
     return app.send_static_file("data.json")
 
 @app.route("/api/data/quantenergy")
-def get_data():
+def get_data2():
     return app.send_static_file("results.json")
